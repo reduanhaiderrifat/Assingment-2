@@ -36,8 +36,71 @@ nav{
 .banner{
       width:100%;
       height: 500px;
-     margin:0 100px;
+     margin-left: 90px;
     
-    background-image: url('./Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-image: url('./Images/Group\ 13\ \(1\)\ \(1\)\ \(2\).png');
     background-repeat: no-repeat;
+    
 }
+.banner-content{
+   position: relative;
+   right: 50px;
+   text-align: center;
+   align-items: center;
+   padding-top: 60px;
+
+}
+.banner-content h2{
+    color: #FFF;
+    font-size: 44px;
+    font-weight: 800;
+}
+#para{
+    color: #FFF;
+    max-width: 700px;
+    padding-top: 10px;
+    padding-left:470px ;
+    font-size: 1rem;
+    font-weight: 400;
+}
+#para:hover{
+    color:yellow
+}
+.banner-input input{
+   
+    width: 140px;
+    height: 46px;
+   margin-right:34px;
+   border-radius: 8px;
+   border: none;
+   
+}
+.banner-input{
+    margin: 20px 220px;
+    padding: 10px 0;
+    border: 2px solid;
+    border: none;
+    background: rgba(255, 255, 255, 0.30);
+     border-radius: 8px;
+     
+}
+.btn-primary{
+    border-radius: 8px;
+   border: none;
+    width: 140px;
+    height:46px ;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #FF5400;
+    color: #FFF;
+}
+
+.unicode{
+    
+    font-family: 'FontAwesome';
+}
+
+
+
+
+
