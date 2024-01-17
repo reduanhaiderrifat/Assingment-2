@@ -532,6 +532,16 @@ font-weight: 400;
    .simple{
     flex-direction: column;
    }
+   .simple-vedio{
+    width: 100%;
+    margin: 0 auto;
+    }
+    .simple-content{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
    .news-input input{
     width: 100%;
  
