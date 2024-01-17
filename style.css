@@ -510,17 +510,27 @@ font-weight: 400;
     
     .destination-image {
         flex-direction: column;
-        width: 500px;
-        padding:0 20px ;
-        height:auto ;
-        
+        width: 100%;
+        /* padding:0 20px ;
+        height:auto ; */
+        margin: 0 auto;
     }
-
+    .destination-image #image2,#image3,#image4{
+        width: 100%;
+        margin: 0 auto;
+    }
     .room-container{
         grid-template-columns: repeat(1,1fr);
     }
-
-
+     .destination-image .image1 {
+        width: 100%;
+        margin: 0 auto;
+     }
+    .destination-image .image2{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
 
    .hotel-service-container{
     flex-direction: column;
