@@ -396,3 +396,164 @@ nav{
     display: block;
     border-top: 2px solid #fff;
 }
+.news-input:hover{
+    border-color: #ff400f;   
+}
+.news-input input{
+    padding: 15px;
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: none;
+}
+#button{
+    background-color: #ff400f;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+.enter{
+    font-size: 16px;
+    font-weight: 400;
+}
+.save-up img{
+    width: 100%;
+    margin:0 auto ;
+    height: 100%;
+}
+.save{
+    border: 1px solid;
+    border: none;
+    background-color: #FF5400;
+    color: #fff;
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    padding: 20px 20px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 130px;
+    left:23.7rem;
+    transform: rotate(-30deg);
+}
+.footer-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.footer{
+    margin-top: 170px;
+    background:  rgba(19, 19, 24, 0.05);;
+    text-align: center;
+    align-items: center;
+    padding: 30px 120px;
+}
+.footer-title h2{
+    font-size: 32px;
+    font-weight: 800;
+}
+footer p{
+   padding: 20px 0;
+   color: #5A5A5D;
+
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+}
+.span span{
+    margin-right: 16px;
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .nav-content ul{
+        visibility: hidden;
+        
+    }
+    .nav-content{
+        flex-wrap: wrap;
+    }
+    .nav-content #icon{
+        visibility: visible;
+        position: relative;
+        left: 290px;
+        bottom: 30px;
+    }
+    nav{
+        flex-wrap: wrap;
+    }
+    .banner-input{
+        display: block;
+    }
+    .banner-input input{
+        width: 280px;
+        margin-bottom: 20px;
+    }
+    .tours-container{
+        flex-direction: column;
+    }
+    .tours-content{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .tours-img img{
+        width: 198%;
+        
+    }
+    .destination-content{      
+       text-align: center;   
+    }
+    
+    .destination-image {
+        flex-direction: column;
+        width: 500px;
+        padding:0 20px ;
+        height:auto ;
+        
+    }
+
+    .room-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+
+
+   .hotel-service-container{
+    flex-direction: column;
+   }
+   .price{
+    margin: 0 ;
+    margin-top: 20px;
+   }
+   .simple{
+    flex-direction: column;
+   }
+   .news-input input{
+    width: 100%;
+ 
+   }
+   .news-latter{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+   }
+  .save-up img{
+    width: 100%;
+    height: 100%;
+  }
+   .news{
+   flex-direction: column;
+   }
+   .save{
+    
+    position: sticky;
+    
+    top: 0;
+    bottom: 0;
+    
+   }
+}
